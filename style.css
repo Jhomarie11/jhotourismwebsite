@@ -214,6 +214,7 @@ header .logo
   margin: 10px;
   width: 300px;
   height: 200px; /* Adjust the height as needed */
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 .image-card__image1 {
   width: 100%;
@@ -221,6 +222,10 @@ header .logo
   object-fit: cover; /* Adjust the object-fit property as needed */
   display: flex;
   position: relative;
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+.image-card__item1:hover .image-card__image1 {
+  transform: scale(0.9); /* Example: scale down the image on hover */
 }
 .image-card__caption1 {
   margin-top: 10px;
@@ -228,6 +233,7 @@ header .logo
   font-weight: bold;
   color: #fff;
 }
+
 
 .image-card2 {
   display: flex;
@@ -238,6 +244,7 @@ header .logo
   margin: 10px;
   width: 300px;
   height: 200px; /* Adjust the height as needed */
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 .image-card__image2 {
   width: 100%;
@@ -245,6 +252,10 @@ header .logo
   object-fit: cover; /* Adjust the object-fit property as needed */
   display: flex;
   position: relative;
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+.image-card__item2:hover .image-card__image2 {
+  transform: scale(0.9); /* Example: scale down the image on hover */
 }
 .image-card__caption2 {
   margin-top: 10px;
@@ -262,6 +273,7 @@ header .logo
   margin: 10px;
   width: 300px;
   height: 200px; /* Adjust the height as needed */
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 .image-card__image3 {
   width: 100%;
@@ -269,6 +281,10 @@ header .logo
   object-fit: cover; /* Adjust the object-fit property as needed */
   display: flex;
   position: relative;
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+.image-card__item3:hover .image-card__image3 {
+  transform: scale(0.9); /* Example: scale down the image on hover */
 }
 .image-card__caption3 {
   margin-top: 10px;
@@ -286,6 +302,7 @@ header .logo
   margin: 10px;
   width: 300px;
   height: 200px; /* Adjust the height as needed */
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
 }
 .image-card__image4 {
   width: 100%;
@@ -293,6 +310,10 @@ header .logo
   object-fit: cover; /* Adjust the object-fit property as needed */
   display: flex;
   position: relative;
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
+.image-card__item4:hover .image-card__image4 {
+  transform: scale(0.9); /* Example: scale down the image on hover */
 }
 .image-card__caption4 {
   margin-top: 10px;
@@ -300,3 +321,106 @@ header .logo
   font-weight: bold;
   color: #fff;
 }
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+}
+.contact-text h4 {
+  margin: 15px 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-text h2 {
+  font-size: #fff;
+  color: #fff;
+}
+.contact-text p {
+  color: #fff;
+  font-size: var(--p-font);
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.contact-list {
+  margin-bottom: 3rem;
+}
+.contact-list li {
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-list li a {
+  display: block;
+  color: #fff;
+  font-size: var(--p-font);
+  font-weight: 600;
+  transition: all 0.40s ease;
+}
+.contact-list li a:hover {
+  transform: scale(1.01) translateY(-5px);
+  color: #fff;
+}
+.contact-icons i {
+  height: 40px;
+  width: 40px;
+  background: black;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: all 0.40s ease;
+}
+.contact-icons i:hover {
+  transform: scale(1.01) translateY(-5px);
+  color: black;
+  background: #fff;
+}
+
+.contact-form form {
+  position: relative;
+  margin-top: 175px; /* Increase the margin-top value as needed */
+}
+.contact-form form input,
+form textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 18px;
+  background: #fff;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea {
+  resize: none;
+  height: 125px;
+}
+.contact-form form .send {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 500;
+  background: #fff;
+  color: black;
+  width: 190px;
+  transition: all 0.40s ease;
+  cursor: pointer;
+  position: relative;
+  top: 100px; /* Increase the top value as needed */
+}
+
+.last-text p {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
